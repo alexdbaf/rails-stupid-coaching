@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+.center-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Raleway";
+  font-weight: 700;
+}
+
+p {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.block {
+  background-color: #efefef;
+  border-left: 2px solid black;
+  width: 500px;
+  padding-left: 20px;
+  border-radius: 5px;
+  box-shadow: 1px;
+}
+
+
